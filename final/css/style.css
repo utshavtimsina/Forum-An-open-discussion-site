@@ -1,0 +1,78 @@
+body{font-family: 'Roboto', sans-serif;margin-top: 80px; background: #eee; font-size: 14px}
+header{background-color: #fff;}
+.navbar{margin-bottom: 0; border: none}
+hr{border-color: #ccc}
+
+.panel h2{font-size: 18px; font-weight: bold; margin: 5px 0}
+.panel h4.media-heading{font-size: 15px;}
+.profile-block img{display: block; margin: 0 auto 5px;}
+.activity li{margin-bottom: 5px}
+.activity a{color: #333}
+.activity .badge{background: #aaa}
+.block-categories ul{padding-left: 15px}
+.navbar-form .form-control{width: 300px}
+.media{padding-bottom: 15px; border-bottom: 1px solid #eee}
+.media:last-of-type{border: none;}
+.media-body{margin-bottom: 5px}
+.btn-votes{margin-top: 10px; }
+.answer a{font-size: 13px; text-decoration: underline;}
+.more_text{display: none;}
+.question-form{padding: 10px; background: #fff; margin-bottom: 15px; border: 1px solid #ddd; border-radius: 4px}
+.question-form #ask_question, .question-form #ask_question:focus{border: none; box-shadow: none;}
+.question-form #ask_question{font-size: 18px; font-weight: bold;}
+
+.navbar-brand{background: url('../images/Logo_KCC1.png'); background-size: cover; width: 219px}
+.nav>li>a.btn-upload:focus, .nav>li>a.btn-upload:hover{background: #449d44;}
+
+.asker-info{font-size: 11px; font-weight: normal; color: #777}
+.panel-heading-right{margin-left: 45px}
+.answer-body{padding-left: 60px}
+.navbar-nav>li.profile-dropdown>a{padding: 5px}
+.comment .navbar-form{margin-left: 22px; padding-left: 5px}
+.comment .navbar-form .form-control{height: 22px; border-radius: 0;; font-size: 12px; padding: 5px}
+.panel-heading-right a{margin-right: 7px}
+.answer-body, .write-answer-block{display: none;}
+.asker-info .glyphicon-pencil{font-size: 9px}
+.write-answer-block{margin-top: 15px}
+
+#success-message{position: fixed; bottom: 10px; left: 10px; border: 1px solid #5cb85c; box-shadow: 2px 2px 15px rgba(0,0,0,0.2); margin: 0}
+.answer-form .input-image{display: inline-block; margin-left: 5px}
+.reply_img{max-height: 350px; overflow: hidden;}
+.reply_img img{width: 100%;}
+.btn-downvote,.btn-upvote{transition: all linear .08s; outline: none !important;}
+.btn-downvote, .btn-downvote.active:hover, .btn-downvote:focus{color: #999}
+.btn-downvote.active{color: #23527c}
+.btn-upvote:hover, .btn-upvote.active{background: #23527c; color: #fff}
+.btn-upvote.active:hover{color: #333; background: #ddd}
+.nav>li.active>a{
+    text-decoration: none;
+    background-color: #eee;
+}
+
+.profile-block label{font-size: 16px; border-bottom: 2px dotted #bd1829}
+.profile-block ul{padding-left: 0; list-style: none;}
+.profile-block li{margin-bottom: 5px}
+
+.profile-container{position: relative; width: 70px; margin: 0 auto;}
+.profile-container #profile{position: absolute; top: 0; left: 0; width: 70px; height: 70px; text-indent: -9999px; border-radius: 50%}
+.profile-container #profile:hover{background: rgba(0,0,0,.5);}
+
+.image-save-modal{position:fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,.5); display: none; z-index: 100000}
+.image-save-modal .save-image-box{width: 300px; margin: 0 auto; background: #fff; margin-top: 5%; padding: 25px; text-align: center; position: relative;}
+
+#notice-slider{max-height: 216px; overflow: hidden; background: #fff}
+#notice-slider .carousel-control{background-image: none; background: #000; text-shadow: none; height: 40px; width: 30px; top: calc(50% - 20px)}
+.carousel-control .glyphicon{font-size: 15px; padding: 6px 0}
+
+.notice-box{background: #000}
+.notice-box .save-image-box{width: auto; max-width: 90%}
+.top-tool{padding: 8px 12px	; text-align: right; color: #fff; background: #222}
+.top-tool .btn{margin-left: 25px}
+
+.btn-close-sibox{position: absolute; top: 10px; right: 10px; padding: 7px 10px}
+
+input[type=file]{max-width: 100%}
+
+@media(mi.image-save-modal .save-image-boxn-width: 768px){
+	.profile-block, .block-categories{position: fixed; width: 25%}
+}

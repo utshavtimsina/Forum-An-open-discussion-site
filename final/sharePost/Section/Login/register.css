@@ -1,0 +1,38 @@
+body{background:url(back.jpg);}
+.register{ 
+        
+	  text-align:center; height:500px; width:500px; margin:auto; background-color:#001c37;
+       box-shadow: 10px 10px 5px  #888888; font-family:sans-serif; font-weight:normal;
+	   color:white; font-size:30px; text-align:center;
+}
+
+.form
+{
+	text-align:center;
+	border: 2px solid;
+    border-radius: 5px;
+	color:black;
+	font-weight:normal;
+	font-size:20px; 
+}
+
+.button
+{ 
+  box-shadow: 0px 5px 15px white ;
+  font-size:20px;
+  color:white;
+  height:30px; width:230px;
+  background-color:black;
+  border: 2px solid black;
+  border-radius:5px;
+  
+}
+.button:active
+{
+	box-shadow: 0px 0px 0px ;
+    transform: translateY(4px);
+}
+#heading
+{
+	text-shadow:5px 5px 10px black;
+}
