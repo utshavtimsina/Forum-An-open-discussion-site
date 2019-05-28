@@ -1,2 +1,2 @@
 # 5thsem
-filr with database uithin files and db name forum
+file with database within files and db name forum
